@@ -1,0 +1,11 @@
+{
+  "message.unmannedonlinetickstasis.paused_console": "服务器已暂停（无玩家在线）。",
+  "message.unmannedonlinetickstasis.resumed_console": "服务器已恢复（玩家上线）。",
+  "message.unmannedonlinetickstasis.paused_chat": "服务器因无玩家在线而暂停。",
+  "message.unmannedonlinetickstasis.resumed_chat": "服务器已恢复。欢迎回来！",
+  "message.unmannedonlinetickstasis.command_blocked": "服务器暂停期间不允许使用该命令。",
+
+  "config.unmannedonlinetickstasis.enablePause": "启用暂停",
+  "config.unmannedonlinetickstasis.delaySeconds": "暂停延迟（秒）",
+  "config.unmannedonlinetickstasis.commandWhitelist": "命令白名单"
+}

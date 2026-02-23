@@ -1,0 +1,11 @@
+{
+  "message.unmannedonlinetickstasis.paused_console": "Server paused (no players online).",
+  "message.unmannedonlinetickstasis.resumed_console": "Server resumed (player online).",
+  "message.unmannedonlinetickstasis.paused_chat": "Server paused due to no players online.",
+  "message.unmannedonlinetickstasis.resumed_chat": "Server resumed. Welcome back!",
+  "message.unmannedonlinetickstasis.command_blocked": "This command is not allowed while server is paused.",
+
+  "config.unmannedonlinetickstasis.enablePause": "Enable Pause",
+  "config.unmannedonlinetickstasis.delaySeconds": "Pause Delay (seconds)",
+  "config.unmannedonlinetickstasis.commandWhitelist": "Command Whitelist"
+}

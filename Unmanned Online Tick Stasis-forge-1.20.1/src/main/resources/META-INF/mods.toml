@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="unmannedonlinetickstasis"
+side="SERVER"   # 可选，仅服务端
+version="${file.jarVersion}"
+displayName="Unmanned Online Tick Stasis"
+displayURL="https://github.com/DY-XiaoJiaZi/UnmannedOnlineTickStasis"
+logoFile="unmannedonlinetickstasis/icon.png"
+credits="DY_XiaoJiaZi"
+authors="DY_XiaoJiaZi"
+description="""
+When no players are online, this mod freezes the server's time flow, pausing almost all in-game activities. Upon a player's arrival, the server seamlessly resumes to its pre-pause state.
+Features:
+- Pause world updates, entity movement, random ticks, and redstone devices.
+- Record and restore world time and entity states (optional).
+- Configurable delay and command whitelist for console.
+- Multilingual (English & Chinese).
+"""
+
+[[dependencies.unmannedonlinetickstasis]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.unmannedonlinetickstasis]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,1.21)"
+ordering="NONE"
+side="BOTH"
